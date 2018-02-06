@@ -26,6 +26,7 @@ public class RoshamboMain {
 		
 		
 		
+		
 		//Prompt the player to enter a name and select an opponent
 		System.out.println("Welcome to Rock Paper Scissors!\n");
 		System.out.println("Please enter your name: ");
@@ -60,7 +61,7 @@ public class RoshamboMain {
 			humanPlayer.generateRoshambo(name, choice);
 			
 			Player randomPlayer = new RandomPlayer();
-			randomPlayer.setRoshambo(random.Roshambo());
+//			randomPlayer.setRoshambo(random.Roshambo());
 			randomPlayer.generateRoshambo("Randy: ", choice);
 			games.add(humanPlayer);
 			games.add(randomPlayer);
